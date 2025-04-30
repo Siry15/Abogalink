@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: abogalink
+    env: docker
+    repo: https://github.com/Siry15/Abogalink
+    branch: main
+    dockerfilePath: ./Dockerfile
+    plan: free
